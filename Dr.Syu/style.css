@@ -1,0 +1,260 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family: sans-serif;
+}
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar
+{
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  padding: o !important;
+}
+.navbar-brand img
+{
+  height: 40px;
+  padding-left: 10px;
+}
+.navbar-nav li
+{
+  padding: 0;
+}
+.navbar-nav li a
+{
+  color: white !important;
+  font-size: 14px;
+  font-weight: 500;
+  float: right;
+  text-align: left;
+}
+.fa-bars
+{
+  color: white;
+  font-size: 30px !important;
+}
+.navbar-toggler
+{
+  outline: none !important;
+}
+
+/*-------------banner section----------------*/
+
+#banner
+{
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+.promo-title
+{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 100px;
+  font-family: cursive;
+  color: red;
+}
+.promo-tittle-2
+{
+  font-family: inherit;
+  font-size: 18px;
+}
+#Academic-Qualification
+{
+  padding: 80px o;
+}
+.Academic-img
+{
+  width: 100px;
+  margin-top: 20px;
+}
+.title
+{
+  color: black;
+}
+.Academic
+{
+  background: #ECECEC;
+  padding: 20px;
+  box-shadow:0px 1px 10px 2px rgba(0,0,0,0.2);
+}
+.Academic h4
+{
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  color: red;
+}
+.title::before
+{
+  content: '';
+  background: black;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  display: block;
+  transform: translateY(63px);
+}
+.title::after
+{
+  content: '';
+  background: black;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+#CareerHistory
+{
+  padding: 80px o;
+}
+.CareerHistory-img
+{
+  width: 100px;
+  margin-top: 20px;
+}
+.CareerHistory
+{
+  background: #ECECEC;
+  padding: 20px;
+  box-shadow:0px 1px 10px 2px rgba(0,0,0,0.2);
+}
+.CareerHistory h4
+{
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  color: red;
+}
+/*-------Research-Expertise---------*/
+#Research-Expertise
+{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.Research
+{
+  background: #ECECEC;
+  box-shadow:0px 1px 10px 2px rgba(0,0,0,0.2);
+}
+#Research-Expertise ul li
+{
+  margin: 10px 20px;
+}
+#Research-Expertise img
+{
+  width: 1000px;
+  margin-top: 25px;
+}
+
+/*-------counter section---------*/
+
+
+#Research-Grant
+{
+  padding-bottom: 50px;
+}
+.icon-box
+{
+
+  border: 5px solid white;
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
+  transform: rotate(45deg);
+
+}
+.icon-box .fa
+{
+  font-size: 40px;
+  margin: 25px auto;
+  color: black;
+  transform: rotate(-45deg);
+}
+.counter-box
+{
+  background: #ECECEC;
+  padding-top: 25px;
+  box-shadow:0px 1px 10px 2px rgba(0,0,0,0.2);
+}
+.counter-box p
+{
+  font-size: 20px;
+}
+.counter-box .counter
+{
+  font-size: 40px;
+  color: red;
+}
+
+/*-------footer section---------*/
+
+
+#footer
+{
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  color: white;
+}
+.footer-box
+{
+  padding: 30px;
+}
+.footer-box img
+{
+  width: 150px;
+  margin-bottom: 20px;
+}
+.footer-p
+{
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: cursive;
+}
+.footer-p2
+{
+  font-family: sans-serif;
+}
+.footer-box .fa
+{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  width: 40px;
+  text-align: center;
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.contact
+{
+  font-size: 25px;
+  font-family: cursive;
+}
+hr
+{
+background-color: white;
+}
+.copyright
+{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: fantasy;
+}
